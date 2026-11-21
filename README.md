@@ -4,7 +4,9 @@ The problem today: HubSpot knows what was sold and Stripe knows what was billed,
 
 This is a finance operations tool for SaaS companies: billing data quality, AR aging, revenue recognition and deferred revenue from HubSpot and Stripe exports and other CRM system.
 
-1. Upload one Excel file with two sheets, **Raw_HubSpot** and **Raw_Stripe**. 
+
+How to use 
+1. Download Sample_Raw_Data.xlsx with included two sheets, **Raw_HubSpot** and **Raw_Stripe**. 
 2. Open web : https://saasbillingrevenue-app.streamlit.app/
 3. Upload that raw file to web
 
