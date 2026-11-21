@@ -6,7 +6,7 @@ This is a finance operations tool for SaaS companies: billing data quality, AR a
 
 
 How to use 
-1. Download Sample_Raw_Data.xlsx with included two sheets, **Raw_HubSpot** and **Raw_Stripe**. 
+1. Download Sample_Raw_Data.xlsx included two sheets, **Raw_HubSpot** and **Raw_Stripe**. 
 2. Open web : https://saasbillingrevenue-app.streamlit.app/
 3. Upload that raw file to web
 
