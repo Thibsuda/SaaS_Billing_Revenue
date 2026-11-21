@@ -1,6 +1,6 @@
 # SaaS Billing & Revenue Hub
 
-A finance operations tool for SaaS companies: billing data quality, AR aging, revenue recognition and deferred revenue from HubSpot and Stripe exports.
+A finance operations tool for SaaS companies: billing data quality, AR aging, revenue recognition and deferred revenue from HubSpot and Stripe exports and other CRM system.
 
 Upload one Excel file with two sheets, **Raw_HubSpot** and **Raw_Stripe**. The app rebuilds every tab of the the workbook workbook: Summary_Dashboard, Dashboard, RevRec_Waterfall, Deferred_Rev, HubSpot_Working, Stripe_Working and Support. You can download the full Excel workbook with live formulas.
 
