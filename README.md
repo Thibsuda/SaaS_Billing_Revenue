@@ -11,13 +11,13 @@ This is a finance operations tool for SaaS companies: billing data quality, AR a
 
 Pros
 
--Saves time: hours of Excel work become seconds.
--Same rules every month, so there's less human error.
--Catches duplicates, missing Deal IDs, and sold-but-never-billed deals.
--Built-in tie-out checks, so the team can trust the numbers.
--One shared view for AR, billing and the accountant.
--Downloads an Excel workbook with live formulas for the close package.
--Free to run, and it's easy to change the rules in the code.
+- Saves time: hours of Excel work become seconds.
+- Same rules every month, so there's less human error.
+- Catches duplicates, missing Deal IDs, and sold-but-never-billed deals.
+- Built-in tie-out checks, so the team can trust the numbers.
+- One shared view for AR, billing and the accountant.
+- Downloads an Excel workbook with live formulas for the close package.
+- Free to run, and it's easy to change the rules in the code.
 
 Cons
 
