@@ -21,12 +21,12 @@ Pros
 
 Cons
 
--Works on exported files today, not live HubSpot and Stripe data.
--Tested on invented data. Real data will have more edge cases, like credits, refunds, partial payments and multi-line invoices.
--Revenue is straight-line by day, so usage fees or several performance obligations need extra rules.
--Needs clean exports. Missing or misspelled columns have to be fixed first.
--A person still has to review the output, and the app can't confirm that the exported data is complete.
--Needs someone to maintain it, and a company would need to review security before using real data.
+- Works on exported files today, not live HubSpot and Stripe data.
+- Tested on invented data. Real data will have more edge cases, like credits, refunds, partial payments and multi-line invoices.
+- Revenue is straight-line by day, so usage fees or several performance obligations need extra rules.
+- Needs clean exports. Missing or misspelled columns have to be fixed first.
+- A person still has to review the output, and the app can't confirm that the exported data is complete.
+- Needs someone to maintain it, and a company would need to review security before using real data.
 
 Next steps that fix most cons: connect to the HubSpot and Stripe APIs, add credit and refund rules, and run it on a month of real data.
 
