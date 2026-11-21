@@ -62,13 +62,13 @@ def values_workbook(r):
         m = r["summary"]
         pd.DataFrame({"Line": ["Total Contracted (Closed Won)", "(-) Unbilled or Underbilled Deals", "(+) Overbilled vs Contract", "(+) Billed, No Closed Won Deal",
                                "(=) Valid Total Billed (Stripe)", "(-) Total Cash Collected", "(=) Total Open AR"],
-                      "Amount": [m["contracted"], m["unbilled"], m["overbilled"], m["billed_other"], m["billed"], m["collected"], m["open_ar"]]}).to_excel(xw, "Order to Cash", index=False)
-        m["aging"].reset_index().to_excel(xw, "AR Aging", index=False)
-        m["checks"].reset_index().to_excel(xw, "Data Checks", index=False)
-        month_label(r["rr"]).to_excel(xw, "RevRec_Waterfall", index=False)
-        r["deferred"].assign(Month=r["deferred"]["Month"].dt.strftime("%b %y")).to_excel(xw, "Deferred_Rev", index=False)
-        r["sw"].to_excel(xw, "Stripe_Working", index=False)
-        r["hw"].to_excel(xw, "HubSpot_Working", index=False)
+                      "Amount": [m["contracted"], m["unbilled"], m["overbilled"], m["billed_other"], m["billed"], m["collected"], m["open_ar"]]}).to_excel(xw, sheet_name="Order to Cash", index=False)
+        m["aging"].reset_index().to_excel(xw, sheet_name="AR Aging", index=False)
+        m["checks"].reset_index().to_excel(xw, sheet_name="Data Checks", index=False)
+        month_label(r["rr"]).to_excel(xw, sheet_name="RevRec_Waterfall", index=False)
+        r["deferred"].assign(Month=r["deferred"]["Month"].dt.strftime("%b %y")).to_excel(xw, sheet_name="Deferred_Rev", index=False)
+        r["sw"].to_excel(xw, sheet_name="Stripe_Working", index=False)
+        r["hw"].to_excel(xw, sheet_name="HubSpot_Working", index=False)
     return buf.getvalue()
 
 
