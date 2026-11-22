@@ -1,4 +1,4 @@
-"""SaaS Billing & Revenue Hub: all the calculation logic from the Case Study 3 workbook, in pandas.
+"""SaaS Billing & Revenue Hub: all the calculation logic from the my casestudy , in pandas.
 
 Each function mirrors a tab or a helper column in the Excel template, so the app and the
 workbook always agree. Column names are the same plain labels used in the workbook.
