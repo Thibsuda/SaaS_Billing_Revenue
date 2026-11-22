@@ -1,5 +1,5 @@
 """SaaS Billing & Revenue Hub
-Upload one Excel file with two sheets (Raw_HubSpot and Raw_Stripe) and the app rebuilds the
+Upload one Excel file with 2 sheets (Raw_HubSpot and Raw_Stripe) and the app rebuilds the
 Case Study 3 workbook: order to cash, AR aging, revenue schedule, deferred revenue, dashboard.
 """
 import io
